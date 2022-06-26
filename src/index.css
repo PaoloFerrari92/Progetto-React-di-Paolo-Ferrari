@@ -1,13 +1,111 @@
-body {
+*{
   margin: 0;
+  padding: 0%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: url(./components/assets/joshua-rawson-harris-KRELIShKxTM-unsplash.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100vh;
 }
+
+.sum {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  width: 150px;
+  padding-top: 20px;
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.item {
+  display: flex;
+
+}
+
+.ul{
+  display: flex;
+  margin: 25px auto;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  margin: 0 1rem;
+
+}
+
+.showcase {
+  background: url('https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80') 
+  no-repeat right/cover;
+  height: 400px;
+}
+
+.showcase-sport {
+  background: url('https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')
+  no-repeat right/cover;
+  height: 400px;
+}
+
+.showcase-business {
+  background: url('https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1604&q=80')
+  no-repeat right/cover;
+  height: 400px;
+}
+
+.showcase-politic {
+  background: url('https://images.unsplash.com/photo-1520452112805-c6692c840af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1380&q=80')
+  no-repeat right/cover;
+  height: 400px;
+}
+.showcase  .overlay {
+  background-color: rgba(0,0,0,0.4);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-sport .overlay {
+  background-color: rgba(0,0,0,0.4);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-business .overlay {
+  background-color: rgba(0,0,0,0.4);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-politic .overlay {
+  background-color: rgba(0,0,0,0.4);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.underline{
+  color: black;
+}
+
